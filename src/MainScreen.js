@@ -23,24 +23,6 @@ class MainScreen extends React.Component {
   componentDidMount() {
     this.getDataUsingSimpleGetCall();
   }
-
-  getDataUsingSimpleGetCall = () => {
-    axios
-      .get('https://jsonplaceholder.typicode.com/photos')
-      .then(function (response) {
-        // handle success
-        console.log('data: ',response.data)
-      })
-      .catch(function (error) {
-        // handle error
-        alert(error.message);
-      })
-      .finally(function () {
-        // always executed
-        alert('Finally called');
-      });
-  };
-
   render() {
     return (
       <SafeAreaView>

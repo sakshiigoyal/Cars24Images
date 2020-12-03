@@ -2,7 +2,7 @@ import request from './ApiCentral';
 
 function fetchImageList() {
   return request({
-    url: 'https://jsonplaceholder.typicode.com/photos',
+    url: '/photos',
     method: 'GET',
   });
 }
