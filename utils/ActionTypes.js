@@ -1,0 +1,5 @@
+// Fetching Image List
+export const IMAGE_LIST_SUCCESS = 'IMAGE_LIST_SUCCESS';
+export const IMAGE_LIST_ERROR = 'IMAGE_LIST_ERROR';
+export const IMAGE_LIST_REFRESH = 'IMAGE_LIST_REFRESH';
+
