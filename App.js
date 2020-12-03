@@ -6,7 +6,7 @@
 import React from 'react';
 import {Provider} from 'react-redux';
 import ConfigureStore from './utils/Config';
-import MainScreen from './src/MainScreen';
+import MainScreenContainer from './src/MainScreenContainer';
 
 const store = ConfigureStore();
 
@@ -14,7 +14,7 @@ class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <MainScreen />
+        <MainScreenContainer />
       </Provider>
     );
   }
