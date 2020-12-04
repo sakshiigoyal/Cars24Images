@@ -20,6 +20,8 @@ The goal of this project is to show a list of images and title fetch from API.
 
 - React-Navigation navigation library.
 
+- Redux-logger for logging API request
+
 # **Usage**
 
 - *Switch*
@@ -33,8 +35,8 @@ The goal of this project is to show a list of images and title fetch from API.
 
 - Clone the project
 
-- Install dependencies with *npm install*
+- Install dependencies with `npm install`
 
-- Start the dev server with *npm start*
+- Start the dev server with `npm start`
 
-- Run with *react-native run-android*
+- Run with `react-native run-android`
