@@ -13,7 +13,7 @@ import {PinchGestureHandler, State} from 'react-native-gesture-handler';
 
 import {AppConstants} from '../utils/Constant';
 import {styles} from './Styles';
-import {loaderView} from '../utils/Loader';
+import {loaderView} from './Loader';
 
 class MainScreen extends React.Component {
   constructor(props) {
