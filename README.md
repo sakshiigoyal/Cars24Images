@@ -1,26 +1,26 @@
-# Cars24Images
+## Cars24Images
 
 The goal of this project is to show a list of images and title fetch from API.
 
-**Prerequisites**
+# **Prerequisites**
 
-Node JS > 12 and npm (Recommended: Use nvm)
+- Node JS > 12 and npm (Recommended: Use nvm)
 
-Xcode
+- Xcode
 
-Android Studio and Android SDK
+- Android Studio and Android SDK
 
-**Base dependencies**
+# **Base dependencies**
 
-Axios for networking.
+- Axios for networking.
 
-Redux for state management.
+- Redux for state management.
 
-Redux-Thunk to dispatch asynchronous actions.
+- Redux-Thunk to dispatch asynchronous actions.
 
-React-Navigation navigation library.
+- React-Navigation navigation library.
 
-**Usage**
+# **Usage**
 
 - *Switch*
   - For switching between Grid and Vertical List View
@@ -29,12 +29,12 @@ React-Navigation navigation library.
  - *List Items*
     - Clicking on items will navigate to Image modals with animation and zoom functionality
  
-**Running the project**
+# **Running the project**
 
-Clone the project
+- Clone the project
 
-Install dependencies with npm install
+- Install dependencies with *npm install*
 
-Start the dev server with npm start
+- Start the dev server with *npm start*
 
-Run with react-native run-android
+- Run with *react-native run-android*
